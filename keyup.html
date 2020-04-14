@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Key Up</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    
+    <input type='text' id="text">
+    
+    <div id='addHere'>
+
+    </div>
+
+
+  <script>
+
+    $('body').on('keyup', function(){
+
+        alert($('input').val('son'));
+
+        $('#addHere').append('<div></div>').html($('input').val())
+
+    })
+
+    </script>
+
+</body>
+</html>
