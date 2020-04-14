@@ -1,16 +1,16 @@
 $(document).ready(function(){
     //$('para1').css('color', 'red');
-    $('para1').css({color:'red',background:'red'});
+   // $('para1').css({color:'red',background:'red'});
     //$('p.para2').addClass('myClass');
     //$('p.para2').removeClass('myClass');
     //$('#btn1').click(function(){
         //$('p.para2').toggleClass('myClass');
     });
 
-    $('a').hover(function(){
-        $(this).css("color", "blue");
+    $('a').click(function(){
+        $(this).css("color", "red");
         }, function(){
-        $(this).css("background-color", "purple");
+        $(this).css("background-color", "red");
       });
 
       
